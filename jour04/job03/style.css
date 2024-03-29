@@ -1,0 +1,20 @@
+body{
+	background-image: url("fond.jpg");
+}
+
+main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 95vh;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+input, select{
+	padding: 10px;
+}
