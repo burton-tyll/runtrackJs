@@ -30,7 +30,7 @@ function recupValeurs(){
 
 function verifPrenom(user){
 	if (user.prenom.length > 3){
-		console.log(user.prenom)
+		console.log(user)
 	}
 	else{
 		console.log("nope")
