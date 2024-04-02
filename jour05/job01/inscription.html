@@ -22,7 +22,6 @@
 		form{
 			display: flex;
 			flex-direction: column;
-			align-items: center;
 			padding: 40px;
 			border-radius: 10px;
 			background-color: #333333;
@@ -44,6 +43,11 @@
 			border: none;
 			cursor: pointer;
 		}
+
+		p{
+			color: red;
+			text-align: left;
+		}
 	</style>
 	<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="inscription.js" defer></script>
@@ -54,9 +58,9 @@
 		<form>
 			<input type="text" name="nom" placeholder="Nom">
 			<input type="text" name="prenom" placeholder="Prénom">
-			<input type="email" name="email" placeholder="Adresse e-mail" autocomplete="off">
+			<input type="email" name="email" placeholder="Adresse e-mail" autocomplete="on">
 			<input type="password" name="mdp" placeholder="Mot de passe">
-			<input type="password" name="verifmdp" placeholder="Confirmez le mot de passe">
+			<input type="password" name="mdp2" placeholder="Confirmez le mot de passe">
 			<input type="text" name="adresse" placeholder="Adresse postale">
 			<input type="text" name="codepostal" placeholder="Code postal">
 			<button type="button" name="inscription">Inscription</button>
