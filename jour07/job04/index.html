@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" defer></script>
+	<script src="https://kit.fontawesome.com/ed26c97a27.js" crossorigin="anonymous"></script>
+	<style>i{margin-right: 5px}</style>
+	<title></title>
+</head>
+<body>
+	<header>
+		<nav class="nav-wrapper">
+			<a href="index.html" class="brand-logo">Logo</a>
+			<ul class="right">
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="index.html">Inscription</a></li>
+				<li><a href="index.html">Connexion</a></li>
+				<li><a href="index.html">Rechercher</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="container row">
+			<form>
+				<h5>Vous êtes: </h5>
+				<p>
+					<label for="homme">
+						<input name="genre" id="homme" type="radio" class="with-gap" checked>
+						<span>Un homme</span>
+					</label>
+				</p>
+				<p>
+					<label>
+						<input name="genre" id="femme" type="radio" class="with-gap" checked>
+						<span>Une femme</span>
+					</label>
+				</p>
+				<div class="input-field">
+					<input type="text" name="prenom" id="prenom">
+					<label for="prenom" class="validate"><i class="fa-regular fa-address-card"></i>Prénom</label>
+				</div>
+				<div class="input-field">
+					<input type="text" name="nom" id="nom">
+					<label for="nom" class="validate"><i class="fa-solid fa-address-card"></i>Nom</label>
+				</div>			
+				<div class="input-field">
+					<input type="text" name="adresse" id="adresse">
+					<label for="adresse" class="validate"><i class="fa-solid fa-map-location-dot"></i>Adresse</label>
+				</div>
+				<div class="input-field">
+					<input type="email" name="mail" id="mail">
+					<label for="mail" class="validate"><i class="fa-solid fa-at"></i>Adresse e-mail</label>
+				</div>
+				<div class="input-field">
+					<input type="password" name="mdp" id="mdp">
+					<label for="mdp" class="validate"><i class="fa-solid fa-key"></i>Mot de passe</label>
+				</div>
+				<div class="input-field">
+					<input type="password" name="mdp2" id="mdp2">
+					<label for="mdp2"><i class="fa-solid fa-key"></i>Confirmez le mot de passe</label>
+				</div>
+				<!-------------CHECKBOXES----------------------->
+				<h5>Quelles sont vos passions: </h5>
+				<!----INFORMATIQUE-->
+				<p>
+					<label for="informatique">
+						<input type="checkbox" id="informatique" class="filled-in">
+						<span>Informatique</span>
+					</label>
+				</p>
+				<!----VOYAGES-->
+				<p>
+					<label for="voyages">
+						<input type="checkbox" id="voyages" class="filled-in">
+						<span>Voyages</span>
+					</label>
+				</p>
+				<!----SPORT-->
+				<p>
+					<label for="sport">
+						<input type="checkbox" id="sport" class="filled-in">
+						<span>Sport</span>
+					</label>
+				</p>
+				<!----LECTURE-->
+				<p>
+					<label for="lecture">
+						<input type="checkbox" id="lecture" class="filled-in">
+						<span>Lecture</span>
+					</label>
+				</p>
+				<input type="button" value="Envoyer">
+			</form>
+		</section>
+	</main>
+	<footer class="page-footer">
+		<div class="container center">
+			<h5 class="white-text">Liens</h5>
+			<ul>
+				<li><a href="index.html" class="grey-text text-lighten-3">Accueil</a></li>
+				<li><a href="index.html" class="grey-text text-lighten-3">Inscription</a></li>
+				<li><a href="index.html" class="grey-text text-lighten-3">Connexion</a></li>
+				<li><a href="index.html" class="grey-text text-lighten-3">Rechercher</a></li>
+			</ul>
+		</div>
+		<div class="footer-copyright">
+			© 2024 Copyright By Burton TYLL
+		</div>
+	</footer>
+</body>
+</html>
