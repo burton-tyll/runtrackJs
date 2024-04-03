@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<script src="https://kit.fontawesome.com/ed26c97a27.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" defer>
+		$(document).ready(function(){
+			$('.sidenav').sidenav();
+		});
+	</script>
+	<title></title>
+</head>
+<body>
+	<header>
+		<!----------NAVBAR----------------->
+		<nav class="nav-wrapper brown darken-2">
+			<a href="index.html" class="brand-logo"><img class="responsive-img" src="logo.png"></a>
+
+			<a href="#" class="sidenav-trigger" data-target="nav-mobile">
+				<i class="fa-solid fa-bars"></i>
+			</a>
+
+			<ul class="right hide-on-med-and-down">
+				<li><a href="index.html">Map</a></li>
+				<li><a href="index.html">News</a></li>
+				<li><a href="index.html">About</a></li>
+				<li><a href="index.html">Music</a></li>
+			</ul>
+		</nav>
+		<!-----------SIDENAV---------------->
+
+		<ul class="sidenav" id="nav-mobile">
+			<li><a href="index.html">Map</a></li>
+			<li><a href="index.html">News</a></li>
+			<li><a href="index.html">About</a></li>
+			<li><a href="index.html">Music</a></li>
+		</ul>
+
+	</header>
+	<main class="orange lighten-4">
+		<section class="container row">
+			<div class="col s12 m6">
+		    	<div>
+		      		<div class="card">
+		        		<div class="card-image">
+		          			<img src="café1.jpg">
+		          			<span class="card-title">Le classique</span>
+		          			<a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons"><i class="fa-solid fa-plus"></i></i></a>
+		        		</div>
+		        		<div class="card-content">
+		          			<p>Vous êtes du genre à aimer l'original? Ce café est fait pour vous!</p>
+		        		</div>
+		      		</div>
+		    	</div>
+		  	</div>
+		  	<!--------Café2--------------->
+			<div class="col s12 m6">
+		    	<div>
+		      		<div class="card">
+		        		<div class="card-image">
+		          			<img src="café2.jpg">
+		          			<span class="card-title">Le Vermeil</span>
+		          			<a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons"><i class="fa-solid fa-plus"></i></a>
+		        		</div>
+		        		<div class="card-content">
+		          			<p>Goutez notre café Vermeil aux délicieuses notes de noisette.</p>
+		        		</div>
+		      		</div>
+		    	</div>
+		  	</div>
+		</section>
+		<section class="container row" style="margin-bottom: 0;">
+			<!------------Café3--------------->
+			<div class="col s12 m4">
+		    	<div>
+		      		<div class="card">
+		        		<div class="card-image">
+		          			<img src="café3.jpg">
+		          			<span class="card-title">Le Caramel</span>
+		          			<a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons"><i class="fa-solid fa-plus"></i></a>
+		        		</div>
+		        		<div class="card-content">
+		          			<p>Envie de sucre? Fan de café? Et pourquoi ne pas goûter notre création délicatement caramélisée.</p>
+		        		</div>
+		      		</div>
+		    	</div>
+		  	</div>
+		  	<!---------------Café4------------------------>
+			<div class="col s12 m4">
+		    	<div>
+		      		<div class="card">
+		        		<div class="card-image">
+		          			<img src="café4.jpg">
+		          			<span class="card-title">Le Vanillé</span>
+		          			<a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons"><i class="fa-solid fa-plus"></i></a>
+		        		</div>
+		        		<div class="card-content">
+		          			<p>Plongez dans la douceur de la vanille mélangée au café brut. Vous nous en direz des nouvelles!</p>
+		        		</div>
+		      		</div>
+		    	</div>
+		  	</div>
+		  	<!---------------Café5----------------------->
+			<div class="col s12 m4">
+		    	<div>
+		      		<div class="card">
+		        		<div class="card-image">
+		          			<img src="café5.jpg">
+		          			<span class="card-title">Le Cannelle</span>
+		          			<a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons"><i class="fa-solid fa-plus"></i></a>
+		        		</div>
+		        		<div class="card-content">
+		          			<p>Besoin d'un moment de détente? Allez-y prenez donc une tasse de cannelle, promis on ne dira rien!</p>
+		        		</div>
+		      		</div>
+		    	</div>
+		  	</div>
+		</section>
+	</main>
+	<footer class="page-footer brown darken-2">
+		<div class="container row center">
+			<h5>Liens</h5>
+			<ul style="margin: 0">
+				<li><a class="grey-text text-lighten-3" href="#">Map</a></li>
+				<li><a class="grey-text text-lighten-3" href="#">News</a></li>
+				<li><a class="grey-text text-lighten-3" href="#">About</a></li>
+				<li><a class="grey-text text-lighten-3" href="#">Music</a></li>
+			</ul>
+		</div>
+		<div class="footer-copyright">
+			© 2024 Copyright By Burton TYLL
+		</div>
+	</footer>
+</body>
+</html>
