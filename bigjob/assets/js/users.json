@@ -1,0 +1,28 @@
+[{
+	"prenom": "Burton",
+	"nom": "Tyll",
+	"email": "burton.tyll@laplateforme.io",
+	"mdp": "CouCou_Toi13",
+	"statut": "admin"
+},
+{
+	"prenom": "William",
+	"nom": "Kies",
+	"email": "william.kies@laplateforme.io",
+	"mdp": "wiLliaM-du13",
+	"statut": "user"
+},
+{
+	"prenom": "Kylian",
+	"nom": "Dongeon",
+	"email": "kylian.dgn@laplateforme.io",
+	"mdp": "Kiki_09100",
+	"statut": "user"
+},
+{
+	"prenom": "Saydou",
+	"nom": "Balde",
+	"email": "peepitowgloody@laplateforme.io",
+	"mdp": "baldeP_09100",
+	"statut": "modo"
+}]
