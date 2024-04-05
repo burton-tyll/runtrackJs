@@ -1,0 +1,29 @@
+body{
+	min-height: 100vh;
+}
+
+main{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+}
+
+
+form{
+	display: flex;
+	flex-direction: column;
+	height: fit-content;
+	width: 60%;
+	padding: 50px;
+	margin-top: 30px;
+	border-radius: 10px;
+}
+
+input{
+	padding: 5px;
+	margin: 10px 0;
+}
+
+.erreurEmail{
+	color: red;
+}

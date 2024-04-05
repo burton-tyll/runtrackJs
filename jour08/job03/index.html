@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://cdn.tailwindcss.com"></script>
+	<title></title>
+</head>
+<body>
+	<header>
+		<nav class="">
+			<!-------LOGO----------->
+			<a><img class="column-3 sm:w-[50px] sm:h-[50px] lg:w-[130px] lg:h-[130px]" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"></a>
+			<!------LIENS-------------->
+			<ul class="flex flex-wrap content-center">
+				<li><a href="index.html" class="sm:p-1 lg:p-10">Accueil</a></li>
+				<li><a href="index.html" class="sm:p-1 lg:p-10">Inscription</a></li>
+				<li><a href="index.html" class="sm:p-1 lg:p-10">Connexion</a></li>
+				<li><a href="index.html" class="sm:p-1 lg:p-10">Rechercher</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<form>
+			<h5>Vous êtes: </h5>
+			<p>
+				<label for="homme">
+					<input name="genre" id="homme" type="radio" class="with-gap" checked>
+					<span>Un homme</span>
+				</label>
+			</p>
+			<p>
+				<label>
+					<input name="genre" id="femme" type="radio" class="with-gap" checked>
+					<span>Une femme</span>
+				</label>
+			</p>
+			<div class="input-field">
+				<input type="text" name="prenom" id="prenom">
+				<label for="prenom" class="validate"><i class="fa-regular fa-address-card"></i>Prénom</label>
+			</div>
+			<div class="input-field">
+				<input type="text" name="nom" id="nom">
+				<label for="nom" class="validate"><i class="fa-solid fa-address-card"></i>Nom</label>
+			</div>			
+			<div class="input-field">
+				<input type="text" name="adresse" id="adresse">
+				<label for="adresse" class="validate"><i class="fa-solid fa-map-location-dot"></i>Adresse</label>
+			</div>
+			<div class="input-field">
+				<input type="email" name="mail" id="mail">
+				<label for="mail" class="validate"><i class="fa-solid fa-at"></i>Adresse e-mail</label>
+			</div>
+			<div class="input-field">
+				<input type="password" name="mdp" id="mdp">
+				<label for="mdp" class="validate"><i class="fa-solid fa-key"></i>Mot de passe</label>
+			</div>
+			<div class="input-field">
+				<input type="password" name="mdp2" id="mdp2">
+				<label for="mdp2"><i class="fa-solid fa-key"></i>Confirmez le mot de passe</label>
+			</div>
+			<!-------------CHECKBOXES----------------------->
+			<h5>Quelles sont vos passions: </h5>
+			<!----INFORMATIQUE-->
+			<p>
+				<label for="informatique">
+					<input type="checkbox" id="informatique" class="filled-in">
+					<span>Informatique</span>
+				</label>
+			</p>
+			<!----VOYAGES-->
+			<p>
+				<label for="voyages">
+					<input type="checkbox" id="voyages" class="filled-in">
+					<span>Voyages</span>
+				</label>
+			</p>
+			<!----SPORT-->
+			<p>
+				<label for="sport">
+					<input type="checkbox" id="sport" class="filled-in">
+					<span>Sport</span>
+				</label>
+			</p>
+			<!----LECTURE-->
+			<p>
+				<label for="lecture">
+					<input type="checkbox" id="lecture" class="filled-in">
+					<span>Lecture</span>
+				</label>
+			</p>
+			<input type="button" value="Envoyer">
+		</form>
+	</main>
+	<footer class="flex flex-col bg-blue-100 bottom-0 w-[100%]">
+		<div class="flex flex-wrap justify-center">
+			<ul>
+				<li><a href="#">Accueil</a></li>
+				<li><a href="#">Inscription</a></li>
+				<li><a href="#">Connexion</a></li>
+				<li><a href="#">Rechercher</a></li>
+			</ul>
+		</div>
+		<div name="copyright" class="flex bg-blue-200">
+			<p>© 2024 Copyright by Burton TYLL</p>
+		</div>
+	</footer>
+</body>
+</html>

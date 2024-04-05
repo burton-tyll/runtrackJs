@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://cdn.tailwindcss.com"></script>
+	<title></title>
+</head>
+<body class="bg-gray-900 text-zinc-50" style="height: 100vh;">
+	<header>
+		<nav class="flex flex-col flex-wrap bg-sky-950 h-[130px] items-center justify-center">
+			<!-------LOGO----------->
+			<a><img class="w-[50px] h-[50px] lg:w-[130px] lg:h-[130px]" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"></a>
+			<!------LIENS-------------->
+			<ul class="flex flex-wrap content-center">
+				<li><a href="index.html" class="p-1 lg:p-10">Accueil</a></li>
+				<li><a href="index.html" class="p-1 lg:p-10">Inscription</a></li>
+				<li><a href="index.html" class="p-1 lg:p-10">Connexion</a></li>
+				<li><a href="index.html" class="p-1 lg:p-10">Rechercher</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main class="m-2">
+		<form class="flex items-left flex-col flex-wrap">
+			<h5>Vous êtes: </h5>
+			<p>
+				<label for="homme">
+					<input name="genre" id="homme" type="radio" class="with-gap" checked>
+					<span>Un homme</span>
+				</label>
+			</p>
+			<p>
+				<label>
+					<input name="genre" id="femme" type="radio" class="with-gap" checked>
+					<span>Une femme</span>
+				</label>
+			</p>
+				<input type="text" name="prenom" id="prenom" placeholder="Prénom" class="border-2 p-2">
+				<input type="text" name="nom" id="nom" placeholder="Nom" class="border-2 p-2">
+				<input type="text" name="adresse" id="adresse" placeholder="Adresse" class="border-2 p-2">
+				<input type="email" name="mail" id="mail" placeholder="Adresse E-mail" class="border-2 p-2">
+				<input type="password" name="mdp" id="mdp" placeholder="Mot de passe" class="border-2 p-2">
+				<input type="password" name="mdp2" id="mdp2" placeholder="Confirmez le mot de passe" class="border-2 p-2">
+			<!-------------CHECKBOXES----------------------->
+			<h5>Quelles sont vos passions: </h5>
+			<!----INFORMATIQUE-->
+			<p>
+				<label for="informatique">
+					<input type="checkbox" id="informatique" class="filled-in">
+					<span>Informatique</span>
+				</label>
+			</p>
+			<!----VOYAGES-->
+			<p>
+				<label for="voyages">
+					<input type="checkbox" id="voyages" class="filled-in">
+					<span>Voyages</span>
+				</label>
+			</p>
+			<!----SPORT-->
+			<p>
+				<label for="sport">
+					<input type="checkbox" id="sport" class="filled-in">
+					<span>Sport</span>
+				</label>
+			</p>
+			<!----LECTURE-->
+			<p>
+				<label for="lecture">
+					<input type="checkbox" id="lecture" class="filled-in">
+					<span>Lecture</span>
+				</label>
+			</p>
+			<input type="button" value="Envoyer" class="p-3 bg-blue-300 w-[50%] self-center rounded">
+		</form>
+	</main>
+	<footer class="flex flex-col bg-sky-950 bottom-0 w-[100%] fixed">
+		<div class="flex flex-wrap justify-center">
+			<ul>
+				<li><a href="#">Accueil</a></li>
+				<li><a href="#">Inscription</a></li>
+				<li><a href="#">Connexion</a></li>
+				<li><a href="#">Rechercher</a></li>
+			</ul>
+		</div>
+		<div name="copyright" class="flex bg-gray-800">
+			<p>© 2024 Copyright by Burton TYLL</p>
+		</div>
+	</footer>
+</body>
+</html>
