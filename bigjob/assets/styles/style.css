@@ -3,11 +3,22 @@ body{
 }
 
 main{
-	height: 100vh;
+	min-height: 100vh;
 	display: flex;
 	justify-content: center;
+}
+
+.box{
+	margin: 50px;
 }
 
 nav img{
 	width: 200px;
 }
+
+table td{
+	text-align: center;
+	width: 130px;
+	height: 80px;
+}
+
